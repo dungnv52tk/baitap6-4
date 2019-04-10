@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<script>
+    let str1 = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Rugulus"];
+    let str2 = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"];
+
+    function myFunc(star) {
+        star = prompt();
+        for (let i = 0; i < 7; i++) {
+            if (star === str1[i]) {
+                alert(str2[i]);
+            }
+        }
+
+    }
+
+    myFunc();
+</script>
+</body>
+</html>
